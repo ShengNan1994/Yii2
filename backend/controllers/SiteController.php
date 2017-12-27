@@ -16,9 +16,8 @@ class SiteController extends CommonController
     function init(){
         parent::init();
         $view = YII::$app->view;
-        if(!empty(Yii::$app->user->getId())){
-            $view->params['d_users'] = $this->d_users;
-        }
+        $view->params['d_users'] = $this->d_users;
+
 //        $view->params['footers'] = $this->footers;
     }
 
