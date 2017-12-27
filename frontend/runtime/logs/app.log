@@ -1,0 +1,100 @@
+2017-12-27 17:19:55 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php:660
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(660): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(586): yii\db\Connection->createPdoInstance()
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(943): yii\db\Connection->open()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(930): yii\db\Connection->getMasterPdo()
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(243): yii\db\Connection->getSlavePdo()
+#5 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(215): yii\db\Command->queryAll()
+#8 E:\phpStudy\WWW\Yii2\common\models\Menu.php(45): yii\db\Query->all()
+#9 E:\phpStudy\WWW\Yii2\frontend\models\CommonForm.php(20): common\models\Menu::findIdentitys('<span class="st...')
+#10 E:\phpStudy\WWW\Yii2\frontend\controllers\CommonController.php(34): frontend\models\CommonForm->getMenu('<span class="st...')
+#11 E:\phpStudy\WWW\Yii2\frontend\controllers\CommonController.php(23): frontend\controllers\CommonController->actionmenus()
+#12 E:\phpStudy\WWW\Yii2\frontend\controllers\SiteController.php(24): frontend\controllers\CommonController->init()
+#13 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\BaseObject.php(108): frontend\controllers\SiteController->init()
+#14 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(86): yii\base\BaseObject->__construct('[]')
+#15 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#16 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs('[<span class="s...')
+#17 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#18 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#19 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(644): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#20 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(597): yii\base\Module->createControllerByID('<span class="st...')
+#21 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Module->createController('<span class="st...')
+#22 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#23 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 E:\phpStudy\WWW\Yii2\frontend\web\index.php(17): yii\base\Application->run()
+#25 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php:597
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(943): yii\db\Connection->open()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Connection.php(930): yii\db\Connection->getMasterPdo()
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(243): yii\db\Connection->getSlavePdo()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(215): yii\db\Command->queryAll()
+#6 E:\phpStudy\WWW\Yii2\common\models\Menu.php(45): yii\db\Query->all()
+#7 E:\phpStudy\WWW\Yii2\frontend\models\CommonForm.php(20): common\models\Menu::findIdentitys('<span class="st...')
+#8 E:\phpStudy\WWW\Yii2\frontend\controllers\CommonController.php(34): frontend\models\CommonForm->getMenu('<span class="st...')
+#9 E:\phpStudy\WWW\Yii2\frontend\controllers\CommonController.php(23): frontend\controllers\CommonController->actionmenus()
+#10 E:\phpStudy\WWW\Yii2\frontend\controllers\SiteController.php(24): frontend\controllers\CommonController->init()
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\BaseObject.php(108): frontend\controllers\SiteController->init()
+#12 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(86): yii\base\BaseObject->__construct('[]')
+#13 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#14 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs('[<span class="s...')
+#15 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#16 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#17 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(644): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#18 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(597): yii\base\Module->createControllerByID('<span class="st...')
+#19 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Module->createController('<span class="st...')
+#20 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#21 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\phpStudy\WWW\Yii2\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2017-12-27 17:19:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1816'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52319'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.demo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1514366393.9692
+    'REQUEST_TIME' => 1514366393
+]
