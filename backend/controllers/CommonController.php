@@ -20,8 +20,10 @@ class CommonController extends Controller
     public function init() {
 
         //获取用户信息
-        if(!empty(Yii::$app->user->getId())){
+        if(Yii::$app->user->getId() != ""){
             $this->d_users = $this->actionusers();
+        }else{
+            $this->d_users = "";
         }
 //        var_dump(Yii::$app->user->getId());
 //        var_dump($this->d_users);die();
