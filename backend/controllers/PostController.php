@@ -3,10 +3,12 @@ namespace backend\controllers;
 
 use backend\controllers\CommonController;
 use backend\models\Articles;
+use common\models\UserParticulars;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use yii\data\Pagination;
 
 /**
  * Site controller
@@ -42,17 +44,38 @@ class PostController extends CommonController
      */
     public function actionIndex()
     {
-        //每页多少条数据
-        $pageSize = 20;
         //总共有多少条数据
         $counts = Articles::find()->count();
-        //总共有多少条页数
-        $totalPage = ceil($counts / $pageSize);
-        $data = Articles::find()->orderBy("id desc")->limit($pageSize)->asArray()->all();
+        $data1['pages'] = new Pagination(['totalCount' => $counts]);
+//        //总共有多少条页数
+//        $totalPage = ceil($counts / $pageSize);
+        //每页多少条数据
+        $data1['pages']->defaultPageSize = 2;
+        $data = Articles::find()->orderBy("id asc")->offset($data1['pages']->offset)->limit($data1['pages']->limit)->asArray()->all();
+        $data1['pages']->params=array("tab"=>'all');
+        foreach ($data as $k=>$v){
+            $u_name = UserParticulars::find()->select(['bi_name'])->from('user_particulars')->where(['user_id' => $v['a_user']])->column();
+            if(!empty($u_name[0])){
+                $data[$k]['bi_name'] = $u_name[0];
+            }else{
+                $data[$k]['bi_name'] = "";
+            }
+            if(empty($v['a_type'])){
+                $data[$k]['d_type'] = "";
+            }else if ($v['a_type'] == 1){
+                $data[$k]['d_type'] = "文章";
+            }else if ($v['a_type'] == 2){
+                $data[$k]['d_type'] = "相册";
+            }else if ($v['a_type'] == 3){
+                $data[$k]['d_type'] = "日记";
+            }
+        }
+//        var_dump($data);die();
         $view = YII::$app->view;
         $view->params['datas'] = $data;
-        $view->params['totalPage'] = $totalPage;
-        $view->params['d_Page'] = 1;
+        $view->params['data'] = $data1;
+//        $view->params['totalPage'] = $totalPage;
+//        $view->params['d_Page'] = 1;
 //        var_dump($data);die();
         return $this->render('index');
     }

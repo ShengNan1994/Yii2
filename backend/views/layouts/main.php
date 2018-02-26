@@ -152,9 +152,11 @@ AppAsset::register($this);
             <div class="leftpanel-userinfo collapse" id="loguserinfo">
                 <h5 class="sidebar-title">简介：</h5>
                 <address><?=$this->params['d_users']['bi_intro']?></address>
-                <h5 class="sidebar-title">地址：</h5>
-                <address><?=$this->params['d_users']['address']?></address>
                 <ul class="list-group">
+                    <li class="list-group-item">
+                        <label class="pull-left">地址：</label>
+                        <span class="pull-right"><?=$this->params['d_users']['address']?></span>
+                    </li>
                     <li class="list-group-item">
                         <label class="pull-left">邮箱：</label>
                         <span class="pull-right"><?=$this->params['d_users']['email']?></span>

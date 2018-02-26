@@ -43,13 +43,6 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>'
                 ,
             ])->passwordInput()->label(false)?>
-
-<!--            --><?//= $form->field($model, 'verifyCode', ['options' => ['class' => 'form-group form-group-lg'],])->widget(yii\captcha\Captcha::className(),[
-//                'options' => ['maxlength' => 4, 'style' => 'width: 190px; padding: 8px;', 'placeholder' => '请输入验证码'],
-//                'template' => "{input} {image}",
-//                'imageOptions' => ['alt' => '验证码','id' => 'login_code', 'src' => ''],]); ?>
-
-<!--            --><?//= $form->field($model, 'rememberMe')->checkbox() ?>
             <div><a href="#" class="forgot">忘记密码？</a></div>
 
             <div class="form-group">
