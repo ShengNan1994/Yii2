@@ -25,17 +25,21 @@ $this->params['breadcrumbs'][] = $this->title;
             <tr>
                 <td><?=$v['id']?></td>
                 <td><?=$v['a_title']?></td>
-                <td><?=$v['a_user']?></td>
-                <td><?=$v['a_type']?></td>
+                <td><?=$v['bi_name']?></td>
+                <td><?=$v['d_type']?></td>
                 <td><?=$v['a_intro']?></td>
-                <td><a class="btn btn-danger" href="#">删除</a></td>
+                <td><a class="btn btn-info" href="#" style="margin-right: 10px">查看</a><a class="btn btn-danger" href="#">删除</a></td>
             </tr>
         <?php endforeach; ?>
         </thead>
     </table>
     <div class="text-right">
-        <button class="btn btn-page">上一页</button>
-        <button class="btn btn-page"><?=$this->params['d_Page']?></button>
-        <button class="btn btn-page" onclick="">下一页</button>
+        <nav>
+            <?php
+            echo yii\widgets\LinkPager::widget([
+                'pagination' =>$this->params['data']['pages'],
+            ]);
+            ?>
+        </nav>
     </div>
 </div>

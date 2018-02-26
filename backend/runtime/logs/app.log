@@ -1247,3 +1247,1889 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1514384806.441
     'REQUEST_TIME' => 1514384806
 ]
+2017-12-28 10:11:24 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Request.php:274
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2017-12-28 10:11:23 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => '1895a62ceb6a4380063bd0bd50a40a09cce672f71b85ee49e6094ebc59fcdde1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"dym9KoCXQDnZC6b3SXjLT992kaC4sjZE\";}'
+    'advanced-backend' => 'u7gt61sr9pvguu4ftb03t3toh6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/Gii'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/Gii'
+    'REMOTE_PORT' => '51844'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=1895a62ceb6a4380063bd0bd50a40a09cce672f71b85ee49e6094ebc59fcdde1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22dym9KoCXQDnZC6b3SXjLT992kaC4sjZE%22%3B%7D; advanced-backend=u7gt61sr9pvguu4ftb03t3toh6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1514427083.897
+    'REQUEST_TIME' => 1514427083
+]
+2018-02-26 14:44:58 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "cat/index".' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php:538
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cat/index', Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-26 14:44:58 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/cat/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/cat/index.html'
+    'REMOTE_PORT' => '64414'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/post/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519627498.558
+    'REQUEST_TIME' => 1519627498
+]
+2018-02-26 14:45:06 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "member/index".' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php:538
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('member/index', Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-26 14:45:06 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/member/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/member/index.html'
+    'REMOTE_PORT' => '64421'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/post/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519627506.455
+    'REQUEST_TIME' => 1519627506
+]
+2018-02-26 15:09:53 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator 'USER_ID' requires two operands.' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\QueryBuilder.php:1576
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(1195): yii\db\QueryBuilder->buildSimpleCondition('USER_ID', Array, '<span class="st...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(997): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(117): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(318): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\ActiveQuery->createCommand(NULL)
+#5 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one(NULL)
+#6 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(53): yii\db\ActiveQuery->one()
+#7 [internal function]: backend\controllers\PostController->actionIndex()
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#12 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2018-02-26 15:09:52 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '49969'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519628992.844
+    'REQUEST_TIME' => 1519628992
+]
+2018-02-26 15:11:14 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(53): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(53): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'bi_name' in 'field list'
+)
+
+2018-02-26 15:11:13 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50239'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629073.25
+    'REQUEST_TIME' => 1519629073
+]
+2018-02-26 15:12:23 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'bi_name' in 'field list'
+)
+
+2018-02-26 15:12:21 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50278'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629141.881
+    'REQUEST_TIME' => 1519629141
+]
+2018-02-26 15:12:32 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:31 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50286'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629151.59
+    'REQUEST_TIME' => 1519629151
+]
+2018-02-26 15:12:33 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'bi_name' in 'field list'
+)
+
+2018-02-26 15:12:32 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50295'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629152.827
+    'REQUEST_TIME' => 1519629152
+]
+2018-02-26 15:12:35 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:32 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50288'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629152.933
+    'REQUEST_TIME' => 1519629152
+]
+2018-02-26 15:12:36 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:33 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1876'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50289'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629153.123
+    'REQUEST_TIME' => 1519629153
+]
+2018-02-26 15:12:37 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:33 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1920'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50290'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629153.296
+    'REQUEST_TIME' => 1519629153
+]
+2018-02-26 15:12:38 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:33 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50291'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629153.493
+    'REQUEST_TIME' => 1519629153
+]
+2018-02-26 15:12:39 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bi_name' in 'field list'
+The SQL being executed was: SELECT `bi_name` FROM `user` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+
+2018-02-26 15:12:33 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1960'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50292'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629153.694
+    'REQUEST_TIME' => 1519629153
+]
+2018-02-26 15:13:03 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.userparticulars' doesn't exist' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.userparticulars' doesn't exist
+The SQL being executed was: SELECT `bi_name` FROM `userparticulars` WHERE `user_id`='2'' in E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT `bi_name...')
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('<span class="ke...')
+#4 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(54): yii\db\ActiveQuery->one()
+#5 [internal function]: backend\controllers\PostController->actionIndex()
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.userparticulars' doesn't exist
+)
+
+2018-02-26 15:13:02 [127.0.0.1][1][vdc2copadsi0fag5vrv0tor8b4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc\";}'
+    'advanced-backend' => 'vdc2copadsi0fag5vrv0tor8b4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '50320'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=c6b3940a77f6901394f019091abaa47e71c79308dd27395aa295000f2d5530c3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ddZ9Irnpuv-x8tQL7n6mG0Ar3EjRJHUc%22%3B%7D; advanced-backend=vdc2copadsi0fag5vrv0tor8b4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.demo.com/site/index.html'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629182.051
+    'REQUEST_TIME' => 1519629182
+]
+2018-02-26 15:21:59 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:113
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(113): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'E:\\phpStudy\\WWW...', 113, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:21:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51000'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629718.497
+    'REQUEST_TIME' => 1519629718
+]
+2018-02-26 15:23:35 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:113
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(113): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'E:\\phpStudy\\WWW...', 113, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:23:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51128'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629814.782
+    'REQUEST_TIME' => 1519629814
+]
+2018-02-26 15:24:45 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:113
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(113): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'E:\\phpStudy\\WWW...', 113, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:24:44 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51161'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629884.001
+    'REQUEST_TIME' => 1519629884
+]
+2018-02-26 15:25:42 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal string offset 'bi_name'' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:143
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(143): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', 'E:\\phpStudy\\WWW...', 143, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:25:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51277'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519629941.201
+    'REQUEST_TIME' => 1519629941
+]
+2018-02-26 15:26:54 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal string offset 'bi_name'' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:143
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(143): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', 'E:\\phpStudy\\WWW...', 143, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:26:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51440'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519630013.376
+    'REQUEST_TIME' => 1519630013
+]
+2018-02-26 15:27:13 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal string offset 'bi_name'' in E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php:143
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\layouts\main.php(143): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', 'E:\\phpStudy\\WWW...', 143, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(67): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:27:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '51450'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519630032.401
+    'REQUEST_TIME' => 1519630032
+]
+2018-02-26 15:40:35 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'LinkPager' not found' in E:\phpStudy\WWW\Yii2\backend\views\post\index.php:37
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-26 15:40:34 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+    'advanced-backend' => '3ki62kr2ooctjqvqtgbp7ogon2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1912'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '52614'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D; advanced-backend=3ki62kr2ooctjqvqtgbp7ogon2'
+    'HTTP_REFERER' => 'http://admin.demo.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519630834.833
+    'REQUEST_TIME' => 1519630834
+]
+2018-02-26 15:46:42 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data1' in E:\phpStudy\WWW\Yii2\backend\views\post\index.php:40
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\post\index.php(40): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\phpStudy\\WWW...', 40, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\PostController))
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(71): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:46:41 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+    'advanced-backend' => '3ki62kr2ooctjqvqtgbp7ogon2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '52969'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D; advanced-backend=3ki62kr2ooctjqvqtgbp7ogon2'
+    'HTTP_REFERER' => 'http://admin.demo.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519631201.85
+    'REQUEST_TIME' => 1519631201
+]
+2018-02-26 15:47:12 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in E:\phpStudy\WWW\Yii2\backend\views\post\index.php:40
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\views\post\index.php(40): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\phpStudy\\WWW...', 40, Array)
+#1 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(332): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(backend\controllers\PostController))
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\PostController))
+#5 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(71): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\PostController->actionIndex()
+#7 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#10 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#11 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-02-26 15:47:11 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+    'advanced-backend' => '3ki62kr2ooctjqvqtgbp7ogon2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '53060'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D; advanced-backend=3ki62kr2ooctjqvqtgbp7ogon2'
+    'HTTP_REFERER' => 'http://admin.demo.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519631231.624
+    'REQUEST_TIME' => 1519631231
+]
+2018-02-26 15:48:56 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: totalPage' in E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php:68
+Stack trace:
+#0 E:\phpStudy\WWW\Yii2\backend\controllers\PostController.php(68): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\phpStudy\\WWW...', 68, Array)
+#1 [internal function]: backend\controllers\PostController->actionIndex()
+#2 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Module.php(529): yii\base\Controller->runAction('index', Array)
+#5 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post/index', Array)
+#6 E:\phpStudy\WWW\Yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\phpStudy\WWW\Yii2\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-02-26 15:48:55 [127.0.0.1][1][3ki62kr2ooctjqvqtgbp7ogon2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY\";}'
+    'advanced-backend' => '3ki62kr2ooctjqvqtgbp7ogon2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\phpstudy\\php55n;E:\\phpstudy\\php55n\\ext;D:\\java\\jdk1.8\\bin;D:\\java\\jdk1.8\\jre\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index.html'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index.html'
+    'REMOTE_PORT' => '53259'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/Yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/Yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.demo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_csrf-backend=bf8821552ce17f6d53bff80107d9d1f4625f1cf1f6be60268780091154cc3885a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gI1Ii3L6o5eQKqOKD_FOlznrnog39BIY%22%3B%7D; advanced-backend=3ki62kr2ooctjqvqtgbp7ogon2'
+    'HTTP_REFERER' => 'http://admin.demo.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_HOST' => 'admin.demo.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519631335.015
+    'REQUEST_TIME' => 1519631335
+]
